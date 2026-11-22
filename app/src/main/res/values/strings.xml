@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">MY_Tic-Tac-Toe</string>
+    <string name="player_one_score">Player 1: %1$d</string>
+    <string name="player_two_score">Player 2: %1$d</string>
+    <string name="player_one_turn">Player 1's turn (O)</string>
+    <string name="player_two_turn">Player 2's turn (X)</string>
+    <string name="player_one_wins">Player 1 wins!</string>
+    <string name="player_two_wins">Player 2 wins!</string>
+    <string name="draw_game">It's a draw!</string>
+    <string name="new_round">New round</string>
+    <string name="reset_game">Reset game</string>
 </resources>

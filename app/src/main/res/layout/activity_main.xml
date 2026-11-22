@@ -28,6 +28,23 @@
             android:textStyle="bold"
             android:textSize="20sp"
             android:layout_marginLeft="10dp" />
+        <TextView
+            android:id="@+id/text_view_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_p2"
+            android:layout_marginLeft="10dp"
+            android:text="@string/player_one_turn"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/button_new_round"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/button_reset"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="4dp"
+            android:text="@string/new_round" />
         <Button
             android:id="@+id/button_reset"
             android:layout_width="wrap_content"
@@ -35,7 +52,7 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginEnd="33dp"
-            android:text="reset"
+            android:text="@string/reset_game"
             android:background="#FFF"
             android:layout_marginRight="33dp"
             android:layout_alignParentRight="true" />
